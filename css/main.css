@@ -1,0 +1,135 @@
+body {
+    font-family: 'Segoe UI';
+}
+
+/* *home section */
+#home {
+    background-image: linear-gradient(rgba(214, 46, 51, 0.2), rgba(214, 46, 51, 0.6)), url(../image/events-heavenly-header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.home-content {
+    position: relative;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.home-content h2 {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+/* nav menu */
+
+.side-nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(17, 17, 17, 0.6);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    width: 0px;
+}
+
+.side-nav .close-btn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.side-nav a {
+    padding: 20px 8px 20px 32px;
+    display: block;
+}
+
+#leftMenu a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+.open-menu {
+    font-size: 30px;
+    position: relative;
+    top: 30%;
+    transform: translateY(-50%);
+    margin-left: 0px;
+    cursor: pointer;
+    transition: margin-left .5s
+}
+
+/* &----------------------- */
+/** slider section */
+.toggle {
+    background-color: #E68285;
+    margin: 0;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.inner-slider {
+    background-color: #CCCCCC;
+    display: none;
+    padding: 7px;
+}
+#slider .first-inner
+{
+    display: block;
+}
+/*& ----------------------- */
+
+/* * counter section */
+#count {
+    background-image: linear-gradient(rgba(214, 46, 51, 0.1), rgba(214, 46, 51, 0.9)), url(../image/invitation-2508607__340.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.time-counter {
+    color: white;
+    font-size: 30px;
+    border: 2px white solid;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/*& ----------------------- */
+
+/* * contact us section */
+#contact-us p , .mail
+{
+    color: rgb(119, 119, 119);
+}
+#contact-us .info-social i {
+    margin-right: 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+}
+#contact-us .info-social i:hover {
+    color: #fff;
+    background-color: #D62E33;
+    border: 1px solid #D62E33;
+}
+#contact-us textarea
+{
+    height: 120px;
+}
